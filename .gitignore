@@ -16,3 +16,20 @@ inspect*.png
 
 # 本地工具配置
 .claude/
+
+# ===== 隐私/密钥防线（以下一律不入库、不上传）=====
+# 环境变量与密钥文件
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+*.crt
+*.credentials
+*secret*
+*token*
+# 本地私有配置（以后要放密钥就放这里，别写进 config.py，config.py 会上传）
+config.local.py
+config.local.json
+private/
