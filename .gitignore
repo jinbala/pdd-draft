@@ -1,0 +1,18 @@
+# 浏览器登录状态/缓存（很大，且含账号登录信息，绝对不能进版本库）
+chrome_profile/
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# 运行产生的记录（每次运行会重新生成，不用存档）
+result.csv
+run.log
+
+# 调试抓取产物（--inspect-edit 会生成）
+inspect*.txt
+inspect*.html
+inspect*.png
+
+# 本地工具配置
+.claude/
